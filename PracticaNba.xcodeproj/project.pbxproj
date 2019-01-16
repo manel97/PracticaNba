@@ -14,6 +14,8 @@
 		815D340121EE5F48009AD53C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815D33FF21EE5F48009AD53C /* LaunchScreen.storyboard */; };
 		815D340C21EE5F49009AD53C /* PracticaNbaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815D340B21EE5F49009AD53C /* PracticaNbaTests.swift */; };
 		815D341721EE5F49009AD53C /* PracticaNbaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815D341621EE5F49009AD53C /* PracticaNbaUITests.swift */; };
+		815D342521EE6159009AD53C /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815D342421EE6159009AD53C /* Team.swift */; };
+		815D342921EE6330009AD53C /* NbaViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815D342821EE6330009AD53C /* NbaViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		815D341221EE5F49009AD53C /* PracticaNbaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticaNbaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		815D341621EE5F49009AD53C /* PracticaNbaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticaNbaUITests.swift; sourceTree = "<group>"; };
 		815D341821EE5F49009AD53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		815D342421EE6159009AD53C /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		815D342821EE6330009AD53C /* NbaViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NbaViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				815D33FD21EE5F48009AD53C /* Assets.xcassets */,
 				815D33FF21EE5F48009AD53C /* LaunchScreen.storyboard */,
 				815D340221EE5F48009AD53C /* Info.plist */,
+				815D342421EE6159009AD53C /* Team.swift */,
+				815D342821EE6330009AD53C /* NbaViewCell.swift */,
 			);
 			path = PracticaNba;
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				815D342921EE6330009AD53C /* NbaViewCell.swift in Sources */,
+				815D342521EE6159009AD53C /* Team.swift in Sources */,
 				815D33F921EE5F47009AD53C /* ViewController.swift in Sources */,
 				815D33F721EE5F47009AD53C /* AppDelegate.swift in Sources */,
 			);
