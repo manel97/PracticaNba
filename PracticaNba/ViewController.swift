@@ -38,6 +38,18 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 150
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print(listaEquipos[indexPath.row].teamName)
+        //definir la instancia de la vista a la que voy a enviar informacion
+        //indicarle donde va a recoger la info.
+        let viewController = storyboard?.instantiateViewController(withIdentifier: "detail") as! teamDetail
+        viewController.img = listaEquipos[indexPath.row].teamLogo
+        viewController.nombre = listaEquipos[indexPath.row].teamName
+        //presentar el nuevo VC
+        self.navigationController?.pushViewController(viewController, animated: true)
+    }
+    
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return "Teams"
     }
